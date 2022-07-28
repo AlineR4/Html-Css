@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body{
+    font-family: work-cccsans;
+    /* Medidas Absolutas
+    cm, mm, in, px, pt, pc
+    
+    Medidas Relativas 
+    em, ex, rem, vw, vh, %
+    
+    */
+    font-size: 14pt ;
+}
