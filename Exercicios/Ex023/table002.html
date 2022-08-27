@@ -13,6 +13,13 @@
             width: 500px;
             border-collapse: collapse;
         }
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 10px;
+            background-color: lightsteelblue;
+            border: 1px solid black;
+        }
         td, th {
              border: 1px solid rgb(24, 24, 78);
              text-align: center;
@@ -28,10 +35,11 @@
 <body>
     <h1>Using Large Tables</h1>
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -39,7 +47,21 @@
                 <td>São Paulo</td>
                 <td>45 919 049</td>
             </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>25 254 256</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td>456 25 412</td>
+            </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td>X</td>
+            </tr>
+        </tfoot>
     </table>
     
 </body>
