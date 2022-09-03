@@ -22,11 +22,22 @@
             border: 1px solid black;
             padding: 8px;
         }
+        col.cnome {
+            background-color: lightgreen;
+        }
+        col.cgrupo {
+            background-color: antiquewhite;
+        }
     </style>
 </head>
 <body>
     <h1>Table exercice</h1>
     <table>
+        <colgroup>
+            <col class="cnome" >
+            <col class="cgrupo" span="2" >
+            <col class="cprofissão">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col" >Nome</th>
